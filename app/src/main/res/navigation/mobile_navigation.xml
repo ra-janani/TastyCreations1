@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/loginFragment3">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tastycreations.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_starter"
+        android:name="com.example.tastycreations.ui.starter.StarterFragment"
+        android:label="Starter"
+        tools:layout="@layout/fragment_starter" >
+        <action
+            android:id="@+id/action_nav_starter_to_starterDetailFragment"
+            app:destination="@id/nav_starterDet" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_breakfast"
+        android:name="com.example.tastycreations.ui.breakfast.BreakfastFragment"
+        android:label="Breakfast"
+        tools:layout="@layout/fragment_breakfast" >
+        <action
+            android:id="@+id/action_nav_breakfast_to_detailFragment"
+            app:destination="@id/nav_bfDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_vegetarian"
+        android:name="com.example.tastycreations.ui.vegetarian.VegetarianFragment"
+        android:label="Vegetarian"
+        tools:layout="@layout/fragment_vegetarian" >
+        <action
+            android:id="@+id/action_nav_vegetarian_to_vegDetailFragment"
+            app:destination="@id/nav_vegDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_vegan"
+        android:name="com.example.tastycreations.ui.vegan.VeganFragment"
+        android:label="Vegan"
+        tools:layout="@layout/fragment_vegan" >
+        <action
+            android:id="@+id/action_nav_vegan_to_veganDetailFragment"
+            app:destination="@id/nav_veganDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_seafood"
+        android:name="com.example.tastycreations.ui.seafood.SeafoodFragment"
+        android:label="SeaFood"
+        tools:layout="@layout/fragment_seafood" >
+        <action
+            android:id="@+id/action_nav_seafood_to_seafoodDetailFragment"
+            app:destination="@id/nav_seafoodDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_bfDetail"
+        android:name="com.example.tastycreations.ui.breakfast.DetailFragment"
+        android:label="Meal Details"
+        tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/nav_starterDet"
+        android:name="com.example.tastycreations.ui.starter.StarterDetailFragment"
+        android:label="Meal Details"
+        tools:layout="@layout/fragment_starter_detail" />
+    <fragment
+        android:id="@+id/nav_vegDetail"
+        android:name="com.example.tastycreations.ui.vegetarian.VegDetailFragment"
+        android:label="Meal Details"
+        tools:layout="@layout/fragment_veg_detail" />
+    <fragment
+        android:id="@+id/nav_veganDetail"
+        android:name="com.example.tastycreations.ui.vegan.VeganDetailFragment"
+        android:label="Meal Details"
+        tools:layout="@layout/fragment_vegan_detail" />
+    <fragment
+        android:id="@+id/nav_seafoodDetail"
+        android:name="com.example.tastycreations.ui.seafood.SeafoodDetailFragment"
+        android:label="Meal Details"
+        tools:layout="@layout/fragment_seafood_detail" />
+    <fragment
+        android:id="@+id/loginFragment3"
+        android:name="com.example.tastycreations.ui.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment3_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+</navigation>

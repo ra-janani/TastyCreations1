@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "860421475436",
+    "project_id": "tastycreations-3e88e",
+    "storage_bucket": "tastycreations-3e88e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860421475436:android:b5c17534c4014738f25c49",
+        "android_client_info": {
+          "package_name": "com.example.tastycreations"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860421475436-49etekm7elch7f0jtrsq0gk9lqn8lqkn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tastycreations",
+            "certificate_hash": "73dbd5808112906268d210ccf14cdd2dd787044b"
+          }
+        },
+        {
+          "client_id": "860421475436-g24l73qensu73gco9cvo3fj24p9rdgmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCroA2hvi2WUfvnG023yDnYtgSeT-kAvL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860421475436-g24l73qensu73gco9cvo3fj24p9rdgmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/house_solid"
+            android:title="@string/menu_home" />
+    </group>
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/nav_starter"
+            android:icon="@drawable/play_solid"
+            android:title="@string/menu_starter" />
+        <item
+            android:id="@+id/nav_breakfast"
+            android:icon="@drawable/ic_bf"
+            android:title="@string/menu_breakfast" />
+    </group>
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/nav_vegetarian"
+            android:icon="@drawable/ic_veg"
+            android:title="@string/menu_vegetarian" />
+        <item
+            android:id="@+id/nav_vegan"
+            android:icon="@drawable/seedling_solid"
+            android:title="@string/menu_vegan" />
+    </group>
+    <group android:id="@+id/group4">
+        <item
+            android:id="@+id/nav_seafood"
+            android:icon="@drawable/ic_seafood"
+            android:title="@string/menu_seafood" />
+    </group>
+</menu>
